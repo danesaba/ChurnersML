@@ -1,0 +1,44 @@
+================================================================================
+STATISTICAL ANALYSIS REPORT
+Customer Churn Prediction - Model Comparison
+================================================================================
+
+METHODOLOGY
+----------------------------------------
+Statistical Test: WILCOXON
+Significance Level (α): 0.05
+Multiple Testing Correction: BONFERRONI
+Number of Models: 6
+Number of Comparisons: 15
+Bonferroni-Corrected α: 0.003333
+
+MODEL PERFORMANCE SUMMARY
+----------------------------------------
+LightGBM (Tuned)              : 0.907002 (±0.007247)
+CatBoost (Tuned)              : 0.904081 (±0.007074)
+XGBoost (Tuned)               : 0.903007 (±0.008417)
+Logistic Regression           : 0.738579 (±0.013346)
+Decision Tree                 : 0.836327 (±0.007486)
+SVM                           : 0.820532 (±0.006477)
+
+MODEL RANKING (by mean CV score)
+----------------------------------------
+1. LightGBM (Tuned)              : 0.907002
+2. CatBoost (Tuned)              : 0.904081
+3. XGBoost (Tuned)               : 0.903007
+4. Decision Tree                 : 0.836327
+5. SVM                           : 0.820532
+6. Logistic Regression           : 0.738579
+
+STATISTICALLY SIGNIFICANT DIFFERENCES
+----------------------------------------
+No statistically significant differences found between models.
+This suggests that all models perform similarly on this dataset.
+
+CONCLUSION
+----------------------------------------
+The best performing model is LightGBM (Tuned) with a mean CV score of 0.907002.
+However, this model does NOT show statistically significant superiority over other models.
+This suggests that multiple models achieve comparable performance on this dataset.
+
+================================================================================

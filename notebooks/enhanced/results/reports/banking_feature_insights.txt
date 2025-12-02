@@ -1,0 +1,77 @@
+================================================================================
+FEATURE IMPORTANCE ANALYSIS - BUSINESS INSIGHTS
+================================================================================
+
+Customer churn in banking is driven by multiple factors. Our analysis reveals:
+
+TOP 20 MOST IMPORTANT FEATURES:
+--------------------------------------------------------------------------------
+
+1. CreditScore
+   Importance: 1219.6873 (±2109.9092)
+   Context: Related to credit utilization
+
+2. Estimated Salary
+   Importance: 1096.8816 (±1897.5646)
+
+3. Age
+   Importance: 1085.5385 (±1869.2930)
+
+4. Balance
+   Importance: 862.1973 (±1490.2599)
+
+5. BalanceToSalaryRatio
+   Importance: 616.5587 (±1065.5943)
+
+6. Tenure
+   Importance: 580.6059 (±976.4976)
+
+7. ProductsPerTenure
+   Importance: 482.8085 (±828.9628)
+
+8. Num Of Products
+   Importance: 183.6419 (±307.8038)
+
+9. Gender
+   Importance: 160.5185 (±276.6801)
+
+10. Is Active Member
+   Importance: 142.7208 (±244.4656)
+
+11. Geography_Germany
+   Importance: 133.2516 (±227.5538)
+
+12. Has Credit Card
+   Importance: 119.1866 (±205.9526)
+   Context: Related to credit utilization
+
+13. Geography_Spain
+   Importance: 116.6057 (±200.3952)
+
+14. AgeGroup
+   Importance: 105.6897 (±173.5497)
+
+15. IsHighValue
+   Importance: 27.7742 (±47.8272)
+
+================================================================================
+ACTIONABLE RECOMMENDATIONS
+================================================================================
+
+1. TRANSACTION MONITORING
+   → Implement early warning system for declining transaction activity
+   → Contact customers showing 20%+ decrease in transaction count
+
+2. CREDIT PRODUCT OPTIMIZATION
+   → Review credit limits for high-value customers
+   → Offer tailored credit products based on usage patterns
+
+3. ENGAGEMENT CAMPAIGNS
+   → Target customers with low Total_Relationship_Count
+   → Cross-sell complementary products to increase stickiness
+
+4. CUSTOMER SERVICE
+   → Reduce contact frequency for satisfied customers
+   → Prioritize high-touch service for at-risk segments
+
+================================================================================
